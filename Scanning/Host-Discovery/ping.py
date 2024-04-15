@@ -20,3 +20,13 @@ class Ping:
             return False
         except:
             return False
+        
+'''
+Ejemplo de uso:
+if __name__ == "__main__":
+    ip_address = "8.8.8.8"  # Cambia la IP según necesites
+    if Ping.is_host_active(ip_address):
+        print(f"{ip_address} está activo.")
+    else:
+        print(f"{ip_address} no está activo.") 
+'''
