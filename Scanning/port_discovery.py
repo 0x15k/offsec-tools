@@ -24,8 +24,6 @@ class PortScanner:
         except socket.error:
             pass
 
-        
-
     def scan_ports(self):
         try:
             for port in range(self.start_port, self.end_port + 1):

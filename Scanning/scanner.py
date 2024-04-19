@@ -1,7 +1,6 @@
 import sys
 import argparse
-sys.path.append('Scanning/Host-Discovery')
-sys.path.append('Scanning/Port-Discovery')
+
 from host_discovery import HostDiscovery
 from port_discovery import PortScanner
 
