@@ -5,6 +5,7 @@ import sys
 def signal_handler(sig, frame):
         print('\nCtrl+C detectado. Saliendo...')
         sys.exit(0)  
+        
 class PortScanner:
     def __init__(self, target, start_port, end_port, verbose=None):
         self.target = target
